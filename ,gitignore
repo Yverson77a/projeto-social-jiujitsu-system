@@ -1,1 +1,14 @@
 
+# Arquivo de configuração com dados sensíveis
+/includes/config.php
+
+# Uploads (fotos dos alunos)
+/assets/img/alunos/*
+!/assets/img/alunos/.gitkeep
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Logs (caso crie futuramente)
+*.log
